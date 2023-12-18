@@ -1,0 +1,70 @@
+*{
+    font-family: 'Alkatra', cursive;
+}
+body{
+    background: linear-gradient(90deg, rgb(168, 168, 255), rgb(198, 167, 255)); 
+    
+}
+.divdiv{
+    background: white;
+    width: 500px;
+    height: 450px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+    margin-top: 225px;
+}
+.LembrarSenha{
+    display: flex;
+    margin-bottom: -20px;
+    margin-top: -5px;
+}
+img{
+    width: 20px;
+}
+.ValorDeEntrada{
+    margin-left:25%;
+    margin-top: 10px;
+    width: 50%;
+    height: 35px;
+}
+form{
+    margin-top: 20px;
+}
+.Embaixo{
+    margin-left: 25%;
+    margin-top: -20px;
+}
+.Login{
+    margin-left: 0%;
+    width: 68%;
+    background: linear-gradient(90deg, rgb(168, 168, 255), rgb(198, 167, 255));
+    margin-top: -15px;
+}
+p,a{
+    font-size: 12px;
+}
+.Registro{
+    display: flex;
+    align-items: center;
+}
+.FaceGoogle{
+    display: flex;
+    justify-content: space-between;
+}
+img{
+    width: 25px;
+}
+.Butao{
+    width: 50%;
+    margin-left: 25%;
+    gap: 25%;
+}
+h6{
+    margin-left: 33%;
+    font-style: italic;
+    color:rgba(70, 70, 70, 0.521);
+}
+b{
+    color:rgba(51, 51, 51, 0.705);
+}

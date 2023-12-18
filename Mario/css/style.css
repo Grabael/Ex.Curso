@@ -1,0 +1,79 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.GameBord{
+    border: 2px solid black;
+    width: 1000px;
+    height: 500px;
+    margin: 10%;
+    position: relative;
+    overflow: hidden;
+}
+.Background{
+    width: 2000px;
+    height: 600px;
+    background-image: url(file:///F:/Gabriel/Mario/img/Arvore.png);
+    background-repeat: repeat-x;
+    background-size: cover 100% auto;
+    animation: Fundo 20s linear infinite;
+}
+.Mario{
+    width: 80px;
+    position: absolute;
+    bottom: 0;
+}
+.Pulo{
+    animation: MarioPulo 800ms ease-out;
+}
+.Cano{
+    width: 75px;
+    position: absolute;
+    bottom: 0;
+    animation: CanoAnimation 2s infinite linear;
+}
+.Nuvem{
+    width: 500px;
+    position: absolute;
+    animation: Nuvem 12s infinite linear;
+}
+.pontuacao{
+    position: absolute;
+}
+@keyframes CanoAnimation{
+    from{
+        right: -20%;
+    }
+    to{
+        right: 100%;
+        
+    }
+}
+@keyframes MarioPulo{
+    0%{
+        bottom: 0;
+    }
+    50%{
+        bottom: 225px;
+    }
+    100%{
+        bottom: 0;
+    }
+}
+@keyframes Nuvem{
+    from{
+        right: -70%;
+    }
+    to{
+        right: 110%;
+    }
+}
+@keyframes Fundo{
+    from{
+        background-position: 103%;
+    }
+     to{
+        background-position: 0;
+    }
+}

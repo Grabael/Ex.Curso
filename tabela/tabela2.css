@@ -1,0 +1,14 @@
+table{
+    border: 1px black solid;
+    width: 80%;
+    margin-left: 10%;
+}
+th{
+    border: 1px black solid;
+    color: rgb(0, 0, 255);
+    background-color: #00FF00;
+}
+td{
+    border: 1px black solid;
+    color: rgb(0,0,255);
+}

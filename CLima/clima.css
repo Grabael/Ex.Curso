@@ -1,0 +1,76 @@
+*{
+    margin: 0;
+    font-family: sans-serif;
+}
+.tudo{
+    width: 640px;
+    height: 175px;
+    background: rgb(61, 61, 61);
+    margin-left: 25%;
+    margin-top: 25%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    border-radius: 50px;
+    color: white;
+}  
+.temperatura{
+    font-size: 100px;
+    margin: 0;
+    margin-left: 20px;
+}
+h1{
+    font-size: 20px;
+    margin-top: 15px;
+    margin-left: 20px;
+}
+.nubladoIMG{
+    width: 100px;
+    height: 100px;
+    margin-top: 50px;
+}
+.vertical{
+    display: flex;
+    flex-direction: column;
+}
+.direita{
+    display: flex;
+    flex-direction: column;
+    margin-left: 50px;
+}
+.a31{
+    font-size: 35px;
+    margin-left: 45px;
+}
+.ventoIMG{
+    width: 40px;
+}
+.km15{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 45px;
+}
+.quinze{
+    font-size: 25px;
+}
+.UV{
+    display: flex;
+    flex-direction: column;
+    margin-left: 60px;
+
+}
+.oito{
+    font-size: 25px;
+}
+.UVoito{
+    display: flex;
+    align-items: flex-start;
+}
+.Umidade{
+    margin-top: 20px;
+}
+.setenta{
+    font-size: 25px;
+}

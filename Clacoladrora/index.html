@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="main.css">
+    <title>Calculadora</title>
+
+</head>
+<body>
+    <div class="corpo">
+        <input type="text" id="tela">
+        <div class="butttons">
+            <button onclick="adicionarTela('7')">7</button>
+            <button onclick="adicionarTela('8')">8</button>
+            <button onclick="adicionarTela('9')">9</button>
+            <button class="operar" onclick="adicionarTela('+')">+</button>
+            <button onclick="adicionarTela('4')">4</button>
+            <button onclick="adicionarTela('6')">6</button>
+            <button onclick="adicionarTela('5')">5</button>
+            <button class="operar" onclick="adicionarTela('-')">-</button>
+            <button onclick="adicionarTela('1')">1</button>
+            <button onclick="adicionarTela('2')">2</button>
+            <button onclick="adicionarTela('3')">3</button>
+            <button class="operar" onclick="adicionarTela('*')">*</button>
+            <button onclick="adicionarTela('0')">0</button>
+            <button onclick="adicionarTela('.')">.</button>
+            <button onclick="limparTela()">C</button>
+            <button class="operar" onclick="adicionarTela('/')">/</button>
+            <button onclick="calcular()">=</button>
+        </div>
+    </div>
+    <script src="calc.js"></script>
+</body>
+</html>
